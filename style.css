@@ -22,11 +22,6 @@ body {
         transform: translateY(0);
     }
 }
-body {
-    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb) !important;
-    background-size: 800% 800% !important;
-    animation: colorChange 8s ease infinite !important;
-}
 
 @keyframes colorChange {
     0% { background-position: 0% 50%; }
