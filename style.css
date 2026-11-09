@@ -100,19 +100,6 @@ button {
     transform: translateY(-10px);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
-/* Modern Background Animation */
-body {
-    background: linear-gradient(
-        -45deg,
-        #eef2ff,
-        #e0f2fe,
-        #f0fdf4,
-        #f5f3ff
-    );
-    background-size: 400% 400%;
-    animation: gradientMove 12s ease infinite;
-}
-
 @keyframes gradientMove {
     0% {
         background-position: 0% 50%;
