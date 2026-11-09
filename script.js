@@ -13,7 +13,11 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
   });
 });
 
-document.getElementById("year").textContent = new Date().getFullYear();
+const yearElement = document.getElementById("year");
+
+if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+}
 const typingText = document.getElementById("typing-text");
 
 const words = [
