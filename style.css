@@ -68,3 +68,20 @@ body {
         transform: translateY(0);
     }
 }
+/* Profile Picture Hover Animation */
+img {
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Button Hover Animation */
+button {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+}
