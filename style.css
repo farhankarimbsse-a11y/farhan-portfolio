@@ -54,3 +54,17 @@ img:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+body {
+    animation: testAnimation 2s ease-in-out;
+}
+
+@keyframes testAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
