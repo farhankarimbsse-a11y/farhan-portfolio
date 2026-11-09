@@ -124,6 +124,18 @@ button {
 .skill:hover b {
     transform: rotate(360deg);
 }
+.typing-cursor {
+    display: inline-block;
+    color: #38bdf8;
+    font-weight: bold;
+    animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+    50% {
+        opacity: 0;
+    }
+}
 
 button:hover {
     transform: translateY(-5px) scale(1.05);
