@@ -124,6 +124,25 @@ body {
         background-position: 0% 50%;
     }
 }
+/* Skills Animation */
+.skill {
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.skill:hover {
+    transform: translateY(-8px) scale(1.05);
+    background: #dbeafe;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill b {
+    transition: transform 0.4s ease;
+}
+
+.skill:hover b {
+    transform: rotate(360deg);
+}
 
 button:hover {
     transform: translateY(-5px) scale(1.05);
